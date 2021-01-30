@@ -36,3 +36,6 @@ def compile_csv(dir):
     combined_df = combined_df.drop_duplicates()
     
     return combined_df
+
+def format_search_terms(terms):
+    return ["+".join(term.split("-")) for term in terms]

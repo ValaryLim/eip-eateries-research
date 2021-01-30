@@ -1,1 +1,1 @@
-from .scrapingUtils import load_url, compile_csv
+from .scrapingUtils import load_url, compile_csv, format_search_terms
