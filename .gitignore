@@ -1,6 +1,7 @@
-__pycache__
+__pycache__/
 .ipynb_checkpoints/
+.git/
+.DS_Store
 data/
 utils/chromedriver
-utils/__pycache__
 config.py
